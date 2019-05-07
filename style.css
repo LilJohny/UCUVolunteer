@@ -5,3 +5,9 @@ section, footer {
 a{
 	margin: 6px 8px;
 }
+.fixed-image {
+  min-height: 10%;
+  height: 30%;
+  max-height: 30%;
+  max-width: 110%;
+}
