@@ -1,0 +1,39 @@
+section, footer {
+    padding: 50px 0;
+}
+
+a {
+    margin: 6px 8px;
+}
+
+.fixed-image {
+    min-height: 10%;
+    height: 30%;
+    max-height: 30%;
+    max-width: 110%;
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:0px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
